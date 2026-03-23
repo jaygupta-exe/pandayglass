@@ -4,7 +4,7 @@ from pillow_heif import register_heif_opener
 
 register_heif_opener()
 
-folder = "public/assets/our-work"
+folder = "public/assets/our-installations"
 
 for filename in os.listdir(folder):
     path = os.path.join(folder, filename)
